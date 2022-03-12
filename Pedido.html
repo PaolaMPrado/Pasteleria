@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica 1 PASTELERIA</title>
+</head>
+<body>
+    <h1>Pedido</h1>
+    <form action="Pedido.js">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"> <br><br>
+
+        <label for="correo1">Correo</label><br>
+        <input type="email" id="correo1" name="correo1"> <br><br>
+
+        <label for="tel1">Teléfono</label><br>
+        <input type="tel" id="tel1" name="tel1" maxlength="10"><br><br>
+
+        <h2>Input de Fecha</h2><br>
+    <input type="date" id="fecha1" name="fecha1"><br>
+    <input type="week" id="fecha3" name="fecha3"><br>
+    <input type="time" id="fecha4" name="fecha4"><br>
+    <input type="month" id="fecha5" name="fecha5"><br><br>
+         
+        <h2>Selecione el Sabor del Pastel</h2><br>
+    <input type="checkbox" id="topping1" name="topping1" value="Vía lactea">
+    <label for="topping1">Vía lactea</label><br>
+    <input type="checkbox" id="topping2" name="topping2" value="Pedasito de cielo">
+    <label for="topping2">Pedasito de cielo</label><br>
+    <input type="checkbox" id="topping3" name="topping3" value="Cielo nocturno">
+    <label for="topping3">Cielo nocturno</label><br>
+    <input type="checkbox" id="topping4" name="topping4" value="Nube cremosa">
+    <label for="topping4">Nube cremosa</label><br><br>  
+    
+    <h2>Seleccione su adorno favorito</h2>
+    <label for="adorno">Adornos</label>
+    <select id="adorno" name="adorno">
+        <option value="---">---</option>
+        <option value="Arcoiris">Arcoiris</option>
+        <option value="Fruta">Fruta</option>
+        <option value="Chocolate">Chocolate</option>
+        <option value="Crema batida">Crema batida</option>
+        <option value="Merengue">Merengue</option>
+        
+    </select>
+
+    <hr>
+
+    <input type="reset"><br>
+    <input type="submit"><br>
+</form>
+
+    
+
+</body>
